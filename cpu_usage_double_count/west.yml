@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    - name: upstream
+      url-base: https://github.com/zephyrproject-rtos
+
+  defaults:
+    remote: upstream
+
+  projects:
+    - name: zephyr
+      revision: 0d65ce46dda0626164503c50f37e6e1f59d310a9  # 2026-08-12 00:56:21 +0000
+
+  self:
+    path: cpu_usage_double_count
