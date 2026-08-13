@@ -11,4 +11,4 @@ manifest:
       revision: 161f758ba363ec90cd9b727a5d82e6c86efa85ad  # 2026-08-12 23:28:04 +0000
 
   self:
-    path: stack_canaries_tls
+    path: stack_canaries_tls_include
