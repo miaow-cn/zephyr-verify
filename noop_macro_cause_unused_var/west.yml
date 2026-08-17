@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    - name: upstream
+      url-base: https://github.com/zephyrproject-rtos
+
+  defaults:
+    remote: upstream
+
+  projects:
+    - name: zephyr
+      revision: 0f0408617f65e38b2b2f86b69a68576a3f21c253  # 2026-08-17 08:27:42 +0000
+
+  self:
+    path: noop_macro_cause_unused_var
