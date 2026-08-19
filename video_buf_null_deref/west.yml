@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    - name: upstream
+      url-base: https://github.com/zephyrproject-rtos
+
+  defaults:
+    remote: upstream
+
+  projects:
+    - name: zephyr
+      revision: d698ef5a7277c6824df0647a8b46e8cc79ef3ece  # 2026-08-19 00:41:33 +0000
+
+  self:
+    path: video_buf_null_deref
