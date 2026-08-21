@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    - name: upstream
+      url-base: https://github.com/zephyrproject-rtos
+
+  defaults:
+    remote: upstream
+
+  projects:
+    - name: zephyr
+      revision: 93db4e5dfc8ad37286a97dc5f2c1785aab3f3165  # 2026-08-19 22:43:40 +0000
+
+  self:
+    path: log_timestamp_trunc
