@@ -22,6 +22,9 @@ back to zero. The app does not wait that long — it calls the public
 `log_output_process()` directly with a fabricated timestamp whose
 `total_seconds` is `2^32 + 3661`.
 
+## Fix
+Compute hours from total_seconds directly in 64 bits when CONFIG_LOG_TIMESTAMP_64BIT is enabled. Print it with %llu.
+
 ## Build & Run
 
 ```sh
